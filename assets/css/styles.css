@@ -1,0 +1,80 @@
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/hero-mobile.jpg") center / cover no-repeat;
+  color: rgb(51,51,51);
+}
+
+@media (min-width: 768px) {
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../../assets/img/hero.jpg") center / cover no-repeat;
+    color: rgb(51,51,51);
+  }
+}
+
+.navbar-brand {
+  background: url("../../assets/img/logo.svg") center / auto no-repeat;
+  width: 120px;
+  height: 12px;
+}
+
+.navbar {
+  background: #00000000;
+  --bs-body-bg: transparent;
+  border-color: var(--bs-body-bg);
+  font-family: Montserrat, sans-serif;
+  font-size: 13PX;
+  font-weight: bold;
+}
+
+#title {
+  font-size: 32px;
+  font-family: Montserrat, sans-serif;
+}
+
+#subtitle {
+  font-size: 40px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  color: #171A20;
+  margin-top: 35px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+span {
+  border: none;
+}
+
+#hero-bottom {
+  color: white;
+}
+
+..p-bot {
+}
+
+.p-bot {
+  font-size: 28px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.reserve-button {
+}
+
+.reserve-button {
+}
+
+.reserve-button {
+  background: rgba(0,0,0,0);
+  position: relative;
+  display: block;
+  border: 3px solid #ffffff;
+  border-radius: 38px;
+}
+
